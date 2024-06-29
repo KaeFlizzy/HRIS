@@ -1,5 +1,6 @@
 # HRIS
 HRIS is a website for the Human Resource Management Information System designed to aid organisations on human resource activities.
+It was coded in html, css and javascript.
 GROUP MEMBERS
 KALULE ABBAS JUNIOR		1900718962		19/U/18962/PS
 KAMIZA ALEX			1900712513		19/U/12513/EVE
