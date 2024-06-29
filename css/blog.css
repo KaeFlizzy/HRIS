@@ -1,0 +1,40 @@
+.blog {
+    padding: 20px;
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .blog-post {
+    width: calc(33% - 20px); /* Adjust width for 3 columns */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post h3 {
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    margin-bottom: 15px;
+  }
+  
+  .post-meta {
+    font-size: 0.8em;
+    color: #aaa;
+  }
+  
+  .post-meta span {
+    margin-right: 10px;
+  }
+  

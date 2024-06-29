@@ -1,0 +1,27 @@
+.contact-us {
+    padding: 20px;
+  }
+  
+  .contact-info, .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info p, .contact-form label {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

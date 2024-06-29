@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRIS - Search</title>
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">HRIS</a>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
+              <li><a href="terms.html">Terms and Conditions</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="error404.html">Error 404</a></li>
+              <li><a href="login.html">Login/Register</a></li>
+              <li><a href="cart.html">Shopping Cart</a></li>
+              <li><a href="search.html">Search</a></li>
+            </ul>
+            <button class="menu-toggle">
+              <i class="fas fa-bars"></i> </button>
+          </nav>
+          <div class="hero">
+            <img src="images/hero.jpg" alt="Happy and Diverse Workplace">
+            <h1>Search</h1>
+            <p>HRIS: The user-friendly HRIS built for efficiency and happy employees.</p>
+            <a href="#" class="btn">Request a Demo</a>
+          </div>
+    </header>
+  <main>
+    <section class="search">
+      <h2>Search</h2>
+      <form action="search_results.php" method="get">
+        <div class="search-box">
+          <input type="text" name="query" id="query" placeholder="Search for articles, resources, or FAQs">
+          <button type="submit">Search</button>
+        </div>
+        <div class="search-options">
+          <label for="filter-category">Filter by Category:</label>
+          <select name="category" id="filter-category">
+            <option value="all">All Categories</option>
+            <option value="articles">Articles</option>
+            <option value="resources">Resources</option>
+            <option value="faqs">FAQs</option>
+          </select>
+        </div>
+      </form>
+      <div class="search-results">
+        </div>
+    </section>
+  </main>
+  <footer>
+    </footer>
+</body>
+</html>

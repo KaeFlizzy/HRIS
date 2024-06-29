@@ -1,0 +1,24 @@
+.shopping-cart {
+    padding: 20px;
+  }
+  
+  .cart-items {
+    margin-bottom: 20px;
+  }
+  
+  .cart-totals, .checkout-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-totals p, .checkout-buttons a {
+    font-weight: bold;
+  }
+  
+  .checkout-buttons a.disabled {
+    background-color: #ddd;
+    cursor: default; /* Disable button interaction */
+  }
+  

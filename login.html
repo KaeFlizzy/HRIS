@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRIS - Login/Register</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">HRIS</a>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
+              <li><a href="terms.html">Terms and Conditions</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="error404.html">Error 404</a></li>
+              <li><a href="login.html">Login/Register</a></li>
+              <li><a href="cart.html">Shopping Cart</a></li>
+              <li><a href="search.html">Search</a></li>
+            </ul>
+            <button class="menu-toggle">
+              <i class="fas fa-bars"></i> </button>
+          </nav>
+          <div class="hero">
+            <img src="images/hero.jpg" alt="Happy and Diverse Workplace">
+            <h1>Log In/ Register</h1>
+            <p>HRIS: The user-friendly HRIS built for efficiency and happy employees.</p>
+            <a href="#" class="btn">Request a Demo</a>
+          </div>
+    </header>
+  <main>
+    <section class="login-register">
+      <h2>Login or Register</h2>
+      <div class="form-container">
+        <form action="your_login_script.php" method="post">  <h3>Login</h3>
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit">Login</button>
+          <a href="#">Forgot Password?</a>
+        </form>
+        <form action="your_registration_script.php" method="post">  <h3>Register</h3>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password_reg">Password:</label>
+            <input type="password" id="password_reg" name="password_reg" required>
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    </footer>
+</body>
+</html>

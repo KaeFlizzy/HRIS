@@ -1,0 +1,23 @@
+.faq {
+    padding: 20px;
+  }
+  
+  .faq-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .faq-list details {
+    margin-bottom: 15px;
+  }
+  
+  .faq-list summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .faq-list details p {
+    padding: 10px 0;
+  }
+  
